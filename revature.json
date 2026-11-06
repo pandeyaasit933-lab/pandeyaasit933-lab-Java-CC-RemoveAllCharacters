@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/RemoveAllCharacterTest.java",
+      "testCases": [
+        {
+          "methodName": "removeTest1",
+          "label": "Removes specified character from string",
+          "description": "Verifies that removing 'c' from 'abcdef' returns 'abdef'."
+        },
+        {
+          "methodName": "removeTest2",
+          "label": "Validates character removal behavior",
+          "description": "Verifies that removing 'l' from 'gorilla' returns 'goria'."
+        },
+        {
+          "methodName": "removeTest3",
+          "label": "Removes all occurrences of character",
+          "description": "Verifies that removing 'a' from 'banana' returns 'bnn'."
+        }
+      ]
+    }
+  ]
+}
